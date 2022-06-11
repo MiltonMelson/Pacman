@@ -1,30 +1,25 @@
 {
   "name": "pacman",
   "version": "1.0.0",
-  "description": "Pacman with random algo ghost",
+  "description": "Pacman with random Algo Ghost",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Milton Melson",
+  "author": "milton melson",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/plugin-transform-runtime": "^7.11.0",
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.4"
   },
   "babel": {
     "plugins": [
       "@babel/plugin-transform-runtime"
     ]
   },
-  "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "gh-pages": "^4.0.0"
-  }
+  "dependencies": {}
 }
