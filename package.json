@@ -4,10 +4,10 @@
   "description": "Pacman with random Algo Ghost",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "parcel ./*.html",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/MiltonMelson/Pacman.git",
+    "deploy": "gh-pages -d dist"
+},
   "keywords": [],
   "author": "milton melson",
   "license": "ISC",
